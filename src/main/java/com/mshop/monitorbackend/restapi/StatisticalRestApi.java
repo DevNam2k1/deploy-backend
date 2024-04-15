@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mshop.monitorbackend.entity.Statistical;
 import com.mshop.monitorbackend.repository.OrderRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("statistical/api")
 public class StatisticalRestApi {

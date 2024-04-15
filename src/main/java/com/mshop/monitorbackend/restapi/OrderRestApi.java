@@ -20,7 +20,7 @@ import com.mshop.monitorbackend.repository.OrderDetailRepository;
 import com.mshop.monitorbackend.repository.OrderRepository;
 import com.mshop.monitorbackend.repository.UserRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("api/orders")
 public class OrderRestApi {

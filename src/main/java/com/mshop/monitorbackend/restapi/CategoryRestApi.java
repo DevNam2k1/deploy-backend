@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mshop.monitorbackend.entity.Category;
 import com.mshop.monitorbackend.repository.CategoryRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("api/categories")
 public class CategoryRestApi {

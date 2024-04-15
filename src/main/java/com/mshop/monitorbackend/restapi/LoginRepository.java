@@ -13,7 +13,7 @@ import com.mshop.monitorbackend.entity.User;
 import com.mshop.monitorbackend.entity.Login;
 import com.mshop.monitorbackend.repository.UserRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class LoginRepository {

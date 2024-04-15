@@ -15,7 +15,7 @@ import com.mshop.monitorbackend.repository.CartDetailRepository;
 import com.mshop.monitorbackend.repository.CartRepository;
 import com.mshop.monitorbackend.repository.UserRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("/api/cart") // localhost:8089/api/cart/user/9
 public class CartRestApi {

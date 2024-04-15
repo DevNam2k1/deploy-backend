@@ -21,7 +21,7 @@ import com.mshop.monitorbackend.repository.CartDetailRepository;
 import com.mshop.monitorbackend.repository.CartRepository;
 import com.mshop.monitorbackend.repository.ProductResository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("/api/cart-detail")
 public class CartDetailRestApi {

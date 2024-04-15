@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mshop.monitorbackend.entity.Product;
 import com.mshop.monitorbackend.repository.ProductResository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("api/products")
 public class ProductRestApi {

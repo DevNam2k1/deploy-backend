@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mshop.monitorbackend.entity.Rate;
 import com.mshop.monitorbackend.repository.RateRepository;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("api/rates")
 public class RateRestApi {

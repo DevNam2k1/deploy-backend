@@ -17,7 +17,7 @@ import com.mshop.monitorbackend.repository.OrderDetailRepository;
 import com.mshop.monitorbackend.repository.UserRepository;
 import com.mshop.monitorbackend.service.SendMailService;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:4201, http://localhost:4200")
 @RestController
 @RequestMapping("api/send-mail")
 public class sendMailRestApi {
